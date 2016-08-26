@@ -3,7 +3,7 @@
 ###Steps to start working with MySQL using php devserver   
 
 first when you start to work in php open the php devserver in the computer, click dashboard in the link of the php, then start the apache in http server to run the program, then start the MySQL in database to run the program, then start working with the text editor for instance sublime text and the url where is located the php devserver, it looks like these (http://127.0.0.1/) 
-Then, look in the dashboard for the name Modules MySQL Administration: PhPMyAdmin click open then, it will go to the page to start working in MySQL this is the url of the page  (27.0.0.1/eds-modules/phpmyadmin4551x160814153047/server_databases.php?db=&amp;token=43298883021ef11904743fb426f7828a) 
+Then, look in the dashboard for the name Modules MySQL Administration: PhPMyAdmin click open then, it will go to the page to start working in MySQL this is the url of the page  (http://127.0.0.1/eds-modules/phpmyadmin4551x160814153047/server_databases.php?db=&amp;token=43298883021ef11904743fb426f7828a) 
 
 To set up a workplace,   
 first need a database, go to database create one name accounts, then, click in account you can see it in the left side, create now a table inside the database account named users specifying how many table do i want to have for each user information. 
@@ -27,6 +27,6 @@ Now, how to connect a file from php with MySQL database steps.
 
 First create a file called mysql.php with sublime text  
 
-<?php  mysqli_connect("localhost", "root","") or die (mysqli_error());  //here the name of the host, username called root, since i don't have a password empty, we set a fucntion or die to make an error if it doesn't connect.   
+><?php  mysqli_connect("localhost", "root","") or die (mysqli_error());  //here the name of the host, username called root, since i don't have a password empty, we set a fucntion or die to make an error if it doesn't connect.   
 
 ?>

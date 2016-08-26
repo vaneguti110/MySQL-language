@@ -25,8 +25,8 @@ Then, you go to Go at the end of the file, you will see you create this content 
 
 Now, how to connect a file from php with MySQL database steps. 
 
-First create a file called mysql.php with sublime text  &lt;
+First create a file called mysql.php with sublime text  
 
-?php  mysqli_connect("localhost", "root","") or die (mysqli_error());  //here the name of the host, username called root, since i don't have a password empty, we set a fucntion or die to make an error if it doesn't connect.   
+<?php  mysqli_connect("localhost", "root","") or die (mysqli_error());  //here the name of the host, username called root, since i don't have a password empty, we set a fucntion or die to make an error if it doesn't connect.   
 
 ?>
